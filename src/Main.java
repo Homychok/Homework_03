@@ -174,7 +174,7 @@ public class Main {
         System.out.println("Домашняя задача 7");
         int numberOfDay = 1;
         for (numberOfDay = 1; numberOfDay <= 31; numberOfDay = numberOfDay + 7) {
-            System.out.println("Сегодня пятница, " + numberOfDay + "-е число. Необходимо подготовить отчет!");
+            System.out.println("Сегодня пятница, " + numberOfDay + " -е число. Необходимо подготовить отчет!");
         }
     }
     public static void homework8 () {

@@ -46,7 +46,9 @@ public class Main {
     public static void lessonwork5 () {
         System.out.println("Самостоятельна задача 5");
         for (int i = 1904; i < 2097; i = i + 4) {
-            System.out.println(i + " год является високосным");
+            if (i % 400 == 0 | i % 4 == 0) {
+                System.out.println(i + " год является високосным");
+                }
         }
     }
     public static void lessonwork6 () {

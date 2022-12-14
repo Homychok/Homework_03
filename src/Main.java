@@ -46,7 +46,9 @@ public class Main {
     public static void lessonwork5 () {
         System.out.println("Самостоятельна задача 5");
         for (int i = 1904; i < 2097; i = i + 4) {
-            System.out.println(i + " год является високосным");
+            if (i % 400 == 0 | i % 4 == 0) {
+                System.out.println(i + " год является високосным");
+                }
         }
     }
     public static void lessonwork6 () {
@@ -174,7 +176,7 @@ public class Main {
         System.out.println("Домашняя задача 7");
         int numberOfDay = 1;
         for (numberOfDay = 1; numberOfDay <= 31; numberOfDay = numberOfDay + 7) {
-            System.out.println("Сегодня пятница, " + numberOfDay + "-е число. Необходимо подготовить отчет!");
+            System.out.println("Сегодня пятница, " + numberOfDay + " -е число. Необходимо подготовить отчет!");
         }
     }
     public static void homework8 () {
